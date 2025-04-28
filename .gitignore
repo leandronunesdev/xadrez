@@ -1,4 +1,42 @@
-xadrez/bin/Debug/net9.0
-xadrez/obj/Debug/net9.0
-xadrez/obj/Debug/net9.0/xadrez.AssemblyInfo.cs
-xadrez/obj/Debug/net9.0/xadrez.AssemblyInfoInputs.cache
+# Compilação
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Backup
+*.bak
+
+# Build results
+*.dll
+*.exe
+*.app
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Rider IDE
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Testes
+TestResults/
+
+# Arquivos de build do dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Gerados automaticamente
+*.Generated.cs
+
+# Configurações locais
+*.launch.json
